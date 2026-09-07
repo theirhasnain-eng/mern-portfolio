@@ -76,5 +76,16 @@ export const projects = [
     liveUrl: "https://library-management-system-teal-nu.vercel.app/",
     githubUrl: "https://github.com/theirhasnain-eng/library-management",
     featured: true,
+  },
+  {
+    id: 8,
+    title: "Invoice Generator",
+    description:
+      "A MERN stack invoice management app that lets users create, customize, and manage professional invoices with ease. Supports itemized billing, client details, and downloadable invoices, helping freelancers and small businesses handle billing faster.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
+    image: siteImages.invoiceGenerator,
+    liveUrl: "https://invoice-maker-iota-three.vercel.app/",
+    githubUrl: "https://github.com/theirhasnain-eng/invoice-maker",
+    featured: true,
   }
 ];

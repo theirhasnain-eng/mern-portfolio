@@ -39,4 +39,7 @@ export const siteImages = {
 
      /** library management system web card   project card */
     LMS: "/images/lms.png",
+
+    /** library management system web card   project card */
+    invoiceGenerator: "/images/invoice-maker.png",
 };
