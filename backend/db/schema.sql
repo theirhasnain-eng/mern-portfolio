@@ -1,0 +1,13 @@
+-- NOTE: This project now uses MongoDB (see server/db/index.js), not PostgreSQL.
+-- This file is kept only for reference and is no longer used.
+-- The MongoDB "contacts" collection is created automatically on first insert,
+-- matching this shape:
+--
+-- {
+--   name: String,
+--   email: String,
+--   subject: String (default "Portfolio inquiry"),
+--   message: String,
+--   read: Boolean (default false),
+--   created_at: Date
+-- }

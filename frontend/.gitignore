@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+server/node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Environment (single file at project root)
+.env
+.env.local
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Server data
+server/data/contacts.json
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
