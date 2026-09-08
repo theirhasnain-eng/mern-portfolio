@@ -1,26 +1,35 @@
 # Dependencies
-node_modules
-server/node_modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
 
 # Build output
-dist
-dist-ssr
+dist/
+dist-ssr/
+build/
 
-# Environment (single file at project root)
+# Environment files (never commit API keys or MongoDB URIs)
 .env
-.env.local
-*.local
+.env.*
+!.env.example
+backend/.env
+frontend/.env
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Server data
-server/data/contacts.json
+# Server local data / uploads
+backend/data/
+server/data/
+*.sqlite
 
-# Editor
+# Editor & OS files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+Thumbs.db
