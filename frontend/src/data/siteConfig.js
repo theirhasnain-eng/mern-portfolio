@@ -8,8 +8,8 @@ export const siteConfig = {
   bio: `I'm a passionate MernStack Web Developer who transforms ideas into polished, production-ready interfaces. With deep expertise in React, JavaScript,expressJs,NodeJs,Mongodb and modern CSS, I craft experiences that feel fast, intuitive, and memorable.
 
 From responsive landing pages to complex dashboards, I combine clean architecture with premium UI design. I'm always learning, always shipping, and always focused on what matters — your users.`,
-  resumeUrl: "/cv/hasnain-cv.pdf",
-  resumeFileName: "Hasnain-CV.pdf",
+  resumeUrl: "/cv/Muhammad_Hasnain_Resume.pdf",
+  resumeFileName: "Muhammad_Hasnain_Resume.pdf",
   social: {
     github: "https://github.com/theirhasnain-eng",
     linkedin: "https://www.linkedin.com/in/theirhasnain/",
